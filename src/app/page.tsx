@@ -1,17 +1,12 @@
-import { redirect } from 'next/navigation';
-
 import { auth } from '@/auth';
 import Header from '@/components/ui/Header';
 
 /**
  * @component
- * @description 메인 페이지 — 로그인 필요, 지도 뷰어 진입점
- * 비로그인 사용자는 /login으로 리다이렉트
+ * @description 메인 페이지 — 지도 뷰어 진입점 (누구나 접근 가능)
  */
 export default async function HomePage() {
   const session = await auth();
-
-  if (!session) redirect('/login');
 
   return (
     <div className="flex min-h-full flex-col">
