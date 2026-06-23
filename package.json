@@ -1,5 +1,5 @@
 {
-  "name": "doppelmap",
+  "name": "dotted",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
     "prepare": "husky"
   },
   "dependencies": {
@@ -38,6 +41,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@types/three": "^0.184.1",
+    "@vitest/coverage-v8": "^4.1.9",
     "eslint": "^9",
     "eslint-config-next": "16.2.9",
     "eslint-config-prettier": "^10.1.8",
@@ -45,6 +49,7 @@
     "lint-staged": "^17.0.7",
     "prettier": "^3.8.4",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5",
+    "vitest": "^4.1.9"
   }
 }

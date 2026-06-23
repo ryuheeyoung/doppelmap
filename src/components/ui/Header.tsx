@@ -31,7 +31,7 @@ export default function Header({ session }: Props) {
           href="/"
           className="text-base font-bold tracking-tight text-zinc-900"
         >
-          Doppelmap
+          Dotted
         </Link>
 
         <div className="flex items-center gap-4">

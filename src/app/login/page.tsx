@@ -22,7 +22,7 @@ export default async function LoginPage() {
       <div className="flex w-full max-w-sm flex-col items-center gap-8 rounded-2xl bg-white p-10 shadow-sm">
         <div className="flex flex-col items-center gap-2 text-center">
           <h1 className="text-2xl font-bold tracking-tight text-zinc-900">
-            Doppelmap
+            Dotted
           </h1>
           <p className="text-sm text-zinc-500">한국 공간의 디지털트윈 플랫폼</p>
         </div>

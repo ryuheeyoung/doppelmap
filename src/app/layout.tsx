@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'Doppelmap',
+  title: 'Dotted',
   description: '한국 공간의 커뮤니티 포인트클라우드 디지털트윈 뷰어',
 };
 
