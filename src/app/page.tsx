@@ -1,4 +1,5 @@
 import { auth } from '@/auth';
+import MapView from '@/components/map/MapView';
 import Header from '@/components/ui/Header';
 
 /**
@@ -9,10 +10,10 @@ export default async function HomePage() {
   const session = await auth();
 
   return (
-    <div className="flex min-h-full flex-col">
+    <div className="flex h-screen flex-col">
       <Header session={session} />
-      <main className="flex flex-1 items-center justify-center bg-zinc-50">
-        <p className="text-sm text-zinc-400">지도 뷰어 준비 중</p>
+      <main className="flex-1">
+        <MapView />
       </main>
     </div>
   );
